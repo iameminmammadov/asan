@@ -1,0 +1,2 @@
+commands:
+    gcloud: gcloud get credentials k8s_cluster --region=eu-west4-a

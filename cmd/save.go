@@ -96,7 +96,6 @@ func saveYaml(data Commands) {
 
 }
 
-var tag string
 
 func init() {
 	saveCmd.Flags().StringVarP(&tag, "tag", "t", "", "Tag for the command (required)")
